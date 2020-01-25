@@ -1,0 +1,13 @@
+<!--pages/Player/player.wxml-->
+<view class="container">
+  <view>
+    <p>回答的队伍是</p>
+    <view class="teamname">
+      <!-- <text class="team">{{team}}</text> -->
+      {{team}}
+    </view> 
+  </view>
+  <view class="buttonArea">
+    <button class="answerButton" hover-class="btn-hover" disabled="{{status}}" bindtap="answerQuickly">开始答题</button>
+  </view>
+</view>

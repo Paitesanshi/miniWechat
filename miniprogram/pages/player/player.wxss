@@ -1,0 +1,22 @@
+/* pages/Player/player.wxss */
+.answerButton{
+  color: white;
+  background-color: red;
+  border-radius: 200rpx;
+  /* border-style: solid;
+  border-color: black;
+  border-width: thin; */
+  top: 300rpx;
+  height: 100rpx;
+  width: 50rpx;
+}
+.teamname{
+  height: 100rpx;
+  width: 400rpx;
+  background-color: lightgray;
+  color: red;
+  font-size: 50rpx;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  line-height: 100rpx;
+}

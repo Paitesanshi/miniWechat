@@ -1,0 +1,10 @@
+<!--pages/Referee/referee.wxml-->
+<view class="container">
+  <view>
+    <p>{{timer}}</p>
+  </view>
+  <view>
+    <button disabled="{{status}}"class="startButton" bindtap="bindStart">开始抢答</button>
+    <button class="nextButton" bindtap="bindNext">下一题</button>
+  </view>
+</view>

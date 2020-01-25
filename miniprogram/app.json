@@ -1,0 +1,18 @@
+{
+  "cloud":true,
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/identity/identity",
+    "pages/referee/referee",
+    "pages/player/player"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "科协er",
+    "navigationBarTextStyle": "black"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

@@ -1,0 +1,7 @@
+<!--index.wxml-->
+<view class="container">
+  <view>
+    <button class="referee" bindtap="bindReferee">裁判</button>
+    <button class="player" bindtap="bindPlayer">选手</button>
+  </view>
+</view>
